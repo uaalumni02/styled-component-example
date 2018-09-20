@@ -5,14 +5,6 @@ import styled from 'styled-components';
 import logo from './logo.svg';
 import './App.css';
 
-const BlueButton = styled(Button)`
-  color: blue;
-
-  :hover {
-    background-color: blue;
-    color: #fff;
-  }
-`;
 
 class App extends Component {
   render() {
@@ -26,8 +18,8 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
           <RedParagraph> I am dangerous </RedParagraph>
           <GreenParagraph> All is well here </GreenParagraph>
-          <Button> Green Button </Button>
-          <BlueButton> Blue Button </BlueButton>
+          <Button color="green"> Green Button </Button>
+          <Button color="blue"> Blue Button </Button>
         </p>
       </div>
     );
